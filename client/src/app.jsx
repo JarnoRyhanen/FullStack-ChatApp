@@ -5,6 +5,7 @@ import Cookies from "universal-cookie";
 
 import { ChannelContainer, ChannelListContainer} from './components';
 
+import "./App.css";
 
 const apiKey = "bztvbcd9dbg3";
 
@@ -25,4 +26,4 @@ const app = () => {
     )
 }
 
-export default app
+export default app;
